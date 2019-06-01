@@ -11,10 +11,11 @@ package herencia;
  */
 public class Persona {
     public String nombre;
-    public String apellido;
+    public String ap_parterno;
+    public String ap_marterno;
     
     Persona(){
         this.nombre="Sin nombre";
-        this.apellido="Sin apellido";
+        this.ap_parterno="Sin apellido";
     }
 }
