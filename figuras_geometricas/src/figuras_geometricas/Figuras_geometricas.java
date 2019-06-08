@@ -3,21 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia;
+package figuras_geometricas;
 
 /**
  *
  * @author julia
  */
-public class Herencia {
+public class Figuras_geometricas {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Recepcionista r1=new Recepcionista();
-        System.out.println(r1.nombre);
+        Circulo c1=new Circulo(12.5);
+        System.out.println(c1.area());
+        System.out.println(c1.perimetro());
     }
     
 }

@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia;
+package figuras_geometricas;
 
 /**
  *
  * @author julia
  */
-public class Recepcionista extends Persona{
-    public int id_recepcion;
-    
-    Recepcionista(){
-        super();
-        this.id_recepcion=0;
-    }
+public class TrianguloIso {
     
 }
